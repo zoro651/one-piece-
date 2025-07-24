@@ -1,0 +1,46 @@
+.reader-page {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.reader-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.reader-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #222;
+  border-bottom: 2px solid #444;
+}
+
+.reader-header button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reader-header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+iframe#pdf-viewer {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
